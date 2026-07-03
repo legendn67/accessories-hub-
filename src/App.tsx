@@ -5,13 +5,11 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProductDetail";
-import StudioPage from "./pages/Studio";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/studio/*" element={<StudioPage />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />

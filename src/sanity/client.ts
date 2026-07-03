@@ -2,8 +2,8 @@ import { createClient } from '@sanity/client'
 import imageUrlBuilder from '@sanity/image-url'
 import { useState, useEffect } from 'react'
 
-export const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || '7ufnlpau'
-export const dataset = import.meta.env.VITE_SANITY_DATASET || 'production'
+export const projectId = '7ufnlpau'
+export const dataset = 'production'
 export const apiVersion = '2024-01-01'
 
 export const client = createClient({

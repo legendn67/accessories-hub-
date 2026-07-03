@@ -242,7 +242,7 @@ export default function Home() {
               <div key={i} className="bg-[#F8FAEC] rounded-2xl p-8 max-w-sm">
                 <Quote className="text-[#6B804D] mb-4 fill-[#6B804D]/20" size={32} />
                 <p className="text-gray-700 font-medium mb-6">
-                  "Amazing products and fast delivery! ShopMate is my go-to store for all my needs."
+                  "Amazing products and fast delivery! Accessories Hub is my go-to store for all my needs."
                 </p>
                 <div className="flex items-center gap-4">
                   <img src={`https://i.pravatar.cc/100?img=${i+10}`} alt="User" className="w-12 h-12 rounded-full" />

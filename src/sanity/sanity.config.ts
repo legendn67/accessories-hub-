@@ -4,10 +4,10 @@ import { schemaTypes } from './schemaTypes'
 
 export const sanityConfig = defineConfig({
   name: 'default',
-  title: 'ShopMate CMS',
+  title: 'Accessories Hub CMS',
 
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || '7ufnlpau',
-  dataset: import.meta.env.VITE_SANITY_DATASET || 'production',
+  projectId: '7ufnlpau',
+  dataset: 'production',
   
   basePath: '/studio',
 

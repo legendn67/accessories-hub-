@@ -15,7 +15,7 @@ export function Layout() {
             className="flex items-center gap-2 font-display text-2xl font-bold tracking-tight text-[#6B804D]"
           >
             <ShoppingBag strokeWidth={2.5} size={28} />
-            ShopMate
+            Accessories Hub
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <NavLink to="/" current={location.pathname}>
@@ -60,7 +60,7 @@ export function Layout() {
                   className="flex items-center gap-2 font-display text-xl font-bold tracking-tight text-[#6B804D] mb-4"
                 >
                   <ShoppingBag strokeWidth={2.5} size={24} />
-                  ShopMate
+                  Accessories Hub
                 </Link>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
                   Your one-stop shop for quality products at the best prices.
@@ -112,7 +112,7 @@ export function Layout() {
             </div>
             
             <div className="mt-16 pt-8 border-t border-gray-200/50 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-              <p>© {new Date().getFullYear()} ShopMate. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Accessories Hub. All rights reserved.</p>
               <div className="flex gap-6">
                 <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
                 <a href="#" className="hover:text-gray-900 transition-colors">Terms of Service</a>
